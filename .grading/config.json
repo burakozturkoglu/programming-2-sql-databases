@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "name": "Part 1: JdbcDemoMain",
+      "run": "./gradlew test --tests JdbcDemoMainTest",
+      "points": 20
+    },
+    {
+      "name": "Part 2: ArtistDAO",
+      "run": "./gradlew test --tests ArtistDAOTest",
+      "points": 40
+    },
+    {
+      "name": "Part 3: AlbumDAO",
+      "run": "./gradlew test --tests AlbumDAOTest",
+      "points": 40
+    }
+  ]
+}
